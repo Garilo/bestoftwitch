@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BestofTwitch.com</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One" rel="stylesheet">
+    <script type='text/javascript' src='script.js'></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
+    <!-------SCRIPTS------->
+    
+    <script>
+      $(document).ready(function(){ 
+          $('#up').click(function(){
+            $('#popup').css("visibility",'visible');
+            $('#center').css('filter','blur(5px)');
+          });
+      });
+        $(document).ready(function(){
+            $('.xit').click(function(){
+               $('#popup').css("visibility", 'hidden');
+                $('#center').css('filter','none');
+            });
+        });
+        $(document).ready(function(){
+            $('#center').click(function(){
+               $('#popup').css("visibility", 'hidden');
+                $('#center').css('filter','none');
+            });
+        });
+        
+        
+        
+        $(document).ready(function(){
+            $('#button').click(function(){
+                var vid = $('input[name=vid]').val();
+                var titre = $('input[name=titre]').val();
+                    $('#center').prepend('<div class="video">' + vid + '</div>');
+            });
+        });
+            
+            
+            
+        
+    </script>
+    
+    <!------Actual code----->
+    
+</head>
+<body>
+    <div class='header'>
+        <nav>
+            <div class='container'>
+                <div class='home'>
+                    <li><a href='index.html'><img src='https://vignette3.wikia.nocookie.net/kancolle/images/2/21/PogChamp_Emote.png/revision/latest?cb=20160817151144' height='30' align='left'>BestofTwitch.com</a></li>
+                </div>
+                <ul>
+                    <li><a href='#articles'> Best Clips</a></li>
+                    <li><a href='#'>Trending</a></li>
+                    <li><a href='#'>Submit</a></li>
+                    <li><a href='#'>Contact us</a></li>
+                </ul>
+                <div class='upload'> 
+                    <a href='#' id='up'><li>Upload</li></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id='naviver'>
+        
+    </div>
+    <div id='center'>
+        <div class='cadre'>
+            <div class='infos'>
+                <h2>Amaz</h2>
+                <p>posted by <a href='#'>Madchap</a></p>
+            </div>
+            <div class='videovote'>
+                <iframe src="https://clips.twitch.tv/embed?clip=BelovedCrypticAsparagusMVGame&autoplay=false" width="500" height="300" frameborder="0" scrolling="no" allowfullscreen="true"></iframe>
+                <div class='vote'>
+                    <h3>Vote</h3>
+                    <div class='yeacontour'>
+                        <div class='yea'>
+                            <p>Yea</p>
+                            <div class='voteyea'>
+                                <p>0</p>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class='naycontour'>
+                        <div class='nay'>
+                            <p>Nay</p>
+                            <div class='votenay'>
+                                <p>0</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='share'>
+                <p>Share</p>
+            </div>
+        </div>
+            <div class='separation'>            <p>________________________________________________</p>
+            </div>
+        <div class='cadre'>
+            <div class='infos'>
+                <h2>Imaqtpie</h2>
+                <p>posted by <a href='#'>Madchap</a></p>
+            </div>
+            <div class='videovote'>
+                <iframe src="https://clips.twitch.tv/embed?clip=BoredSuccessfulPancakeDatSheffy&autoplay=false" width="500" height="300" frameborder="0" scrolling="no" allowfullscreen="true"></iframe>
+                <div class='vote'>
+                    <h3>Vote</h3>
+                    <div class='yea'>
+                        <p>Yea</p>
+                        <div class='voteyea'>
+                            <p>0</p>
+                        </div>
+                    </div>
+                    <div class='nay'>
+                        <p>Nay</p>
+                        <div class='votenay'>
+                            <p>0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='share'>
+                <p>Share</p>
+            </div>
+        </div>
+    </div>
+    <div id='popup'>
+        <form>
+            <p><a class='xit' href='#'>X</a></p>
+            Choose your title:<br>
+            <input type="text" name="titre" id="titre">
+            <br>
+            adress <br>
+            <input type="text" name="vid">
+            <br><br>
+            <input type="submit" name="button" value=" Envoyer " id='button'>
+        </form>
+    </div>
+    
+
+</body>
+</html>

@@ -1,0 +1,187 @@
+body {
+    text-align: center;
+    margin:auto;
+}
+
+.header {
+    border-bottom : 5px solid blueviolet;
+    border-top : 1px solid blueviolet;
+    border-left: 1px solid blueviolet;
+    border-right: 1px solid blueviolet;
+    margin-bottom: 0px;
+}
+
+nav a {
+  line-height: 43px;
+  color: #000;
+  text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+nav ul {
+  display: inline;
+    
+}
+
+nav li {
+  margin: 0;
+  padding: 0 20px;
+  display: inline;
+  text-align: center;
+}
+
+.home{
+    float: left;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 8px 18px;
+    border-right: 1px solid blueviolet;
+    font-family: 'Oswald', sans-serif;
+    position:relative;
+}
+.home:hover {
+    color: red;
+}
+nav {
+    display: inline;
+    min-width: 1200px;
+    margin-bottom: 0px;
+}
+
+.upload {
+    float: right;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    padding: 8px 18px;
+    font-family: 'Oswald', sans-serif;
+    position:relative;
+}
+
+/*Corps*/
+
+#center {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+    min-width: 740px;
+    filter: none;
+}
+
+.cadre {
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 20px;
+    min-height: 410px;
+    min-width: 610px;
+    max-width: 610px;
+    display: block;
+    background-color:whitesmoke;
+}
+.infos{
+  display: block;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-right: 15px;
+    max-width: 580px;
+    word-wrap: break-word;
+    text-align: left
+}
+.infos h2{
+    display: inline;
+    text-align: left;
+    max-width: 100%;
+}
+.infos p{
+    display: inline;
+}
+.cadre p a{
+    
+}
+
+.videovote {
+    display: block;
+    min-height: 300px;
+    margin-bottom:0px;
+    text-align: center;
+}
+iframe {
+    float:left;
+    margin-left: 15px;
+}
+}
+.vote{
+    display: table-cell;
+    margin: auto;
+}
+.vote h3{
+    
+}
+.yea {
+    margin: inherit;
+    border: 3px solid whitesmoke;
+    margin-right: 11px;
+    margin-left:526px;
+    border-radius: 50%;
+    font-size: 12px;
+    background-color: green
+}
+.nay {
+    border: 3px solid whitesmoke;
+    margin-right: 11px;
+    margin-left:526px;
+    margin-top: 10px;
+    border-radius: 50%;
+    font-size: 12px;
+    background-color: red;
+}
+
+
+.nay p {
+    color: white;
+    font-weight: bold;
+}
+
+.yea p {
+    color: white;
+    font-weight: bold;
+}
+
+.share {
+    display: block;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.separation {
+    margin-left: 
+}
+
+#popup {
+     background-color: #fff;
+  border: 3px outset blueviolet;
+  overflow-y: auto;
+  position: fixed;
+  top: 20%;
+  left: 20%;
+    right: 20%;
+   visibility: hidden;
+  z-index: 10000;
+    border-radius: 10px;
+    height: 250px;
+}
+
+#popup p{
+    text-align: right;
+    margin-right : 5px;
+    margin-top: 1px;
+    
+}
+
+form {
+    margin-top: 0px;
+}
